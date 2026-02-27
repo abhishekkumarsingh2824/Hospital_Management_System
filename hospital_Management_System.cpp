@@ -138,7 +138,7 @@ void  viewAppointments()
         cout<<"No appointments have been booked yet"<<endl;
         return;
     }
-    cout<<"------Available Appointments-----"<<endl;
+    cout<<"------Available Appointments------"<<endl;
     for(int i=0;i<allAppointments.size();i++)
     {
         cout<<"patient : "<<" "<<allAppointments[i].patientID<<" "<<" is alloted to Doctor "<<" "<<allAppointments[i].doctorID<<" "<<" at date of "<<allAppointments[i].Date<<endl;
